@@ -1,6 +1,7 @@
 # Ignore all CSV files
 *.csv
 data/*.csv
+*.txt
 
 # Optional: Ignore specific large dataset files explicitly
 merged_mayo_dic_2021.csv
