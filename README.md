@@ -1,32 +1,3 @@
-EnergyConsumptionPrediction
-This repository contains a dataset and tools for predicting energy consumption of a data server located at the Information Technology Center (CTI) of Escuela Superior Politécnica del Litoral (ESPOL). The dataset spans 245 days of high-frequency monitoring (1 Hz) of variables such as voltage, current, active power, frequency, power factor, CPU/GPU/RAM usage, and temperatures, collected from an HP Z440 workstation using an ESP32-based system.
-Features
+# Data Mining Group Project - Energy Consumption Analysis
 
-Dataset: Comprehensive energy consumption data for time-series analysis.
-Prediction Models: Includes Matlab scripts for linear regression-based energy forecasting, with potential for advanced models like LSTM, XGBoost, or Transformers.
-Applications: Optimize energy usage in data centers, support green IT initiatives, and reduce operational costs.
-Visualization: Time-series plots for analyzing energy consumption patterns.
-
-Repository Structure
-
-data/: Contains the energy consumption dataset (CSV/MAT format).
-src/: Matlab scripts for data processing and prediction models.
-PlotData: Visualizations of monitored variables (e.g., power, CPU usage).
-
-Getting Started
-
-Clone the repository: git clone https://github.com/vasanza/EnergyConsumptionPrediction.git
-Place the dataset in the data/ folder.
-Run Matlab scripts in src/ for preprocessing and prediction.
-Explore advanced models (e.g., LSTM, XGBoost) using Python for enhanced accuracy.
-
-Requirements
-
-Matlab (for provided scripts) or Python (for advanced models).
-Libraries: TensorFlow, PyTorch, XGBoost, scikit-learn (optional for advanced models).
-Recommended: GPU for deep learning models.
-
-Citation
-Please cite the dataset if used: IEEE DataPort - Data Server Energy Consumption Dataset.
-License
-This project is licensed under the MIT License.
+This repository contains a data mining project focused on analyzing energy consumption data from the "Data Server Energy Consumption Dataset" (DOI: 10.21227/x6jw-m015). The dataset, sampled at 1 Hz from May to December 2021, includes datetime columns (`fecha_servidor`, `fecha_esp32`) and various energy metrics (e.g., `Voltage`, `Active_Power`). The project involves data preprocessing, missing data checking, and CSV file splitting for further analysis or machine learning tasks.

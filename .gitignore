@@ -1,0 +1,27 @@
+# Ignore all CSV files
+*.csv
+
+# Optional: Ignore specific large dataset files explicitly
+merged_mayo_dic_2021.csv
+part_*.csv
+
+# Common temporary files and directories
+*.pyc
+__pycache__/
+*.log
+*.tmp
+*.bak
+
+# IDE and editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# System files
+.DS_Store
+Thumbs.db
+
+# Python virtual environment
+venv/
+env/
